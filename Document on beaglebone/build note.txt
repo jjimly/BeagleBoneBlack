@@ -1,0 +1,4 @@
+======= PATCH to install cape manager (for kernel version v3.13)=======
+https://github.com/RobertCNelson/rscm
+
+

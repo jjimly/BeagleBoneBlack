@@ -1,0 +1,1550 @@
+Log started 03/02/2016 at 17:08:57
+Preferred installation mode : win32
+Trying to init installer in mode win32
+Mode win32 successfully initialized
+[17:09:00] installer command line args: 
+[17:09:00] Starting preinstall actions here 
+[17:09:00] Override-url 
+repourl http://software-dl.ti.com/ccs/esd/uniflash/Uniflash_3.4.1.00012_win32/repo
+installtype web
+Executing C:\Users\chialien.hsu\AppData\Local\Temp/uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d/proxyfinder.exe http://www.google.com
+Script exit code: 0
+
+Script output:
+ 
+
+Script stderr:
+ 
+
+[17:09:22] 
+	
+	simplelink_cc1xxx_cc2xxx 0
+	simplelink_wifi 0
+	c2000_jtag 0
+	hercules 0
+	msp430 0
+	msp432 0
+	stellaris  0
+	stellaris_alt 0
+	sitara 1
+	ucd31xx_device_support 0
+
+[17:09:22] Emulation 0
+DebugServer 0
+CC3200 0
+[17:09:22] 
+TI EMU: --enable-components xds100,xds560
+BH EMU: 
+SD_EMU: /noc2400 /noc5400 /noc6000 /nodavinci /noomap /noc5500
+
+Preparing to Install
+[17:09:23] blackhawk 0
+spectrum digital 0		
+
+Preparing to Install
+Directory already exists: C:\ti\uniflash_3.4
+Unpacking files
+Unpacking C:\ti\uniflash_3.4\uniflashCLI.bat
+Directory already exists: C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d
+Unpacking files
+Unpacking C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d\uniflash.bat
+Directory already exists: C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d
+Unpacking files
+Installing the GUI component for UniFlash ...
+Creating directory C:\ti\uniflash_3.4\eclipse
+Creating directory C:\ti\uniflash_3.4\eclipse\scripts
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins
+Creating directory C:\ti\uniflash_3.4\eclipse\p2
+Creating directory C:\ti\uniflash_3.4\eclipse\features
+Creating directory C:\ti\uniflash_3.4\eclipse\downloads
+Creating directory C:\ti\uniflash_3.4\eclipse\configuration
+Creating directory C:\ti\uniflash_3.4\eclipse\command_line
+Creating directory C:\ti\uniflash_3.4\eclipse\configuration\org.eclipse.update
+Creating directory C:\ti\uniflash_3.4\eclipse\configuration\org.eclipse.equinox.simpleconfigurator
+Creating directory C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP
+Creating directory C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs
+Creating directory C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs
+Creating directory C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ
+Creating directory C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38
+Creating directory C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.feature_1.0.0.201602120704
+Creating directory C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.cli_1.0.1.1
+Creating directory C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.cli_1.0.1.1\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.feature_1.0.0.201602120704\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine
+Creating directory C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.core
+Creating directory C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry
+Creating directory C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\.settings
+Creating directory C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile
+Creating directory C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\.data
+Creating directory C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\.data\.settings
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201602120704
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.jna_1.0.0.201602120704
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.jna_1.0.0.201602120704\libs
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.jna_1.0.0.201602120704\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\icons
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\com
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\com\ti
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\com\ti\uniflash
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\com\ti\uniflash\branding
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201602120704\libs
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201602120704\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\maven
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\maven\org.eclipse.cdt
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\maven\org.eclipse.cdt\org.eclipse.cdt.core.win32.x86
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32\x86
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\META-INF
+Creating directory C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\META-INF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\.eclipseproduct
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\artifacts.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\command_line\cc3xx_cmd.bat
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\command_line\com.ti.uniflash.commandline.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\command_line\p2gc.bat
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\configuration\config.ini
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\configuration\org.eclipse.equinox.simpleconfigurator\bundles.info
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\configuration\org.eclipse.update\platform.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.cli_1.0.1.1\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.cli_1.0.1.1\META-INF\MYKEY.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.cli_1.0.1.1\META-INF\MYKEY.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.cli_1.0.1.1\feature.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.cli_1.0.1.1\p2.inf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.feature_1.0.0.201602120704\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.feature_1.0.0.201602120704\META-INF\MYKEY.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.feature_1.0.0.201602120704\META-INF\MYKEY.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.feature_1.0.0.201602120704\feature.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\com.ti.uniflash.feature_1.0.0.201602120704\plugin_customization.ini
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\META-INF\ECLIPSE_.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\META-INF\ECLIPSE_.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\META-INF\eclipse.inf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\eclipse_update_120.jpg
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\epl-v10.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\feature.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\feature.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.core.feature_1.1.0.v20120524-0542-8297FncFWmE7h4Asq1cgrz-i38\license.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\META-INF\ECLIPSE_.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\META-INF\ECLIPSE_.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\META-INF\eclipse.inf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\epl-v10.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\feature.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\feature.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.discovery.feature_1.0.100.v20120524-0542-4-Bh9oB58A5N9L28PCQ\license.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\META-INF\ECLIPSE_.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\META-INF\ECLIPSE_.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\META-INF\eclipse.inf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\eclipse_update_120.jpg
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\epl-v10.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\feature.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\feature.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.extras.feature_1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs\license.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\META-INF\ECLIPSE_.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\META-INF\ECLIPSE_.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\META-INF\eclipse.inf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\eclipse_update_120.jpg
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\epl-v10.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\feature.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\feature.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.rcp.feature_1.1.0.v20120524-0542-785EoBqNKNYz-GX2sUgCaBtr2dhs\license.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\META-INF\ECLIPSE_.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\META-INF\ECLIPSE_.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\META-INF\eclipse.inf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\eclipse_update_120.jpg
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\epl-v10.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\feature.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\feature.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\features\org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP\license.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\.settings\org.eclipse.equinox.p2.artifact.repository.prefs
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\.data\.settings\org.eclipse.equinox.p2.artifact.repository.prefs
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\.lock
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\1455278756175.profile.gz
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\1455278756586.profile.gz
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\1455278763919.profile.gz
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\p2\org.eclipse.equinox.p2.engine\profileRegistry\profile.profile\1455278764440.profile.gz
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ibm.icu_4.4.2.v20110823.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.base.ui_5.3.0.201210101700.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.ccstudio.core_5.3.0.201210101700.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.ccstudio.debug.server.core_5.3.0.201210101700.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.ccstudio.debug.server_5.3.0.201210101700.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.ccstudio.p2app_6.0.0.201502111100.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.ccstudio.swt_5.3.0.201210101700.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.ccstudio.system.setup_5.3.0.201210101700.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.common.core.utils.ds_1.0.0.201403071400.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.common.core.utils.local_1.0.0.201403092200.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.common.core_6.0.0.201403092200.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.jna_1.0.0.201602120704\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.jna_1.0.0.201602120704\META-INF\MYKEY.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.jna_1.0.0.201602120704\META-INF\MYKEY.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.jna_1.0.0.201602120704\dummy.txt
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.jna_1.0.0.201602120704\libs\jna-4.0.0.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.jna_1.0.0.201602120704\libs\jna-platform-4.0.0.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\META-INF\MYKEY.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\META-INF\MYKEY.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\about.ini
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\about.mappings
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\about.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\com\ti\uniflash\branding\Activator.class
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\icons\alt_about.gif
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\plugin.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.branding_1.0.0.201602120704\plugin.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.cc3xx_1.0.0.201602120704.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201602120704\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201602120704\META-INF\MYKEY.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201602120704\META-INF\MYKEY.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201602120704\dummy.txt
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201602120704\eclipselink.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201602120704\libs\FlashCC3xIntegration.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common.libs_1.0.0.201602120704\libs\libFlashCC3xIntegration.so
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.common_1.0.0.201602120704.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.rcp_1.0.0.201602120704.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.script.runner_1.0.0.201602120704.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash.session_1.0.0.201602120704.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\com.ti.uniflash_1.0.0.201602120704.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.apache.commons.codec_1.3.0.v201101211617.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.apache.commons.httpclient_3.1.0.v201012070820.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.apache.commons.logging_1.0.4.v201101211617.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\ECLIPSE_.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\ECLIPSE_.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\eclipse.inf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\maven\org.eclipse.cdt\org.eclipse.cdt.core.win32.x86\pom.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\META-INF\maven\org.eclipse.cdt\org.eclipse.cdt.core.win32.x86\pom.xml
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\about.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32\x86\listtasks.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32\x86\spawner.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32\x86\starter.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32.x86_5.2.0.201206111645\os\win32\x86\winreg.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core.win32_5.3.0.201206111645.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.cdt.core_5.4.0.201206111645.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.compare.core_3.5.200.v20120522-1148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.commands_3.6.1.v20120521-2332.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.contenttype_3.4.200.v20120523-2004.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.databinding.observable_1.4.1.v20120521-2332.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.databinding.property_1.4.100.v20120523-1956.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.databinding_1.4.1.v20120521-2332.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.expressions_3.4.400.v20120523-2004.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.filebuffers_3.5.200.v20120523-1310.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.filesystem_1.3.200.v20120522-2012.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.jobs_3.5.200.v20120521-2346.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.net.win32.x86_1.0.100.v20120522-1148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.net_1.2.200.v20120522-1148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.resources_3.8.0.v20120522-2034.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\.api_description
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\META-INF\ECLIPSE_.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\META-INF\ECLIPSE_.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\META-INF\eclipse.inf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\about.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\fragment.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346\runtime_registry_compatibility.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.runtime_3.8.0.v20120521-2346.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.core.variables_3.2.600.v20120521-2012.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ecf.filetransfer_5.0.0.v20120608-0148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ecf.identity_3.1.200.v20120608-0148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ecf.provider.filetransfer.httpclient.ssl_1.0.0.v20120608-0148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ecf.provider.filetransfer.httpclient_4.0.200.v20120608-0148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20120608-0148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ecf.provider.filetransfer_3.2.0.v20120608-0148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ecf.ssl_1.0.100.v20120608-0148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ecf_3.1.300.v20120608-0148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.app_1.3.100.v20120522-1841.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.common_3.6.100.v20120522-1841.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.concurrent_1.0.300.v20120522-2049.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.ds_1.4.0.v20120522-1841.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.frameworkadmin.equinox_1.0.400.v20120428-0117.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.frameworkadmin_2.0.100.v20120606-175127.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\META-INF\ECLIPSE_.RSA
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\META-INF\ECLIPSE_.SF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\META-INF\MANIFEST.MF
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\META-INF\eclipse.inf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\about.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\eclipse_1503.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.1.200.v20120522-1813\launcher.win32.win32.x86.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.artifact.repository_1.1.200.v20120430-1959.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.console_1.0.300.v20120429-0125.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.core_2.2.0.v20120430-0525.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.director.app_1.0.300.v20120428-0517.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.director_2.2.0.v20120524-0542.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.directorywatcher_1.0.300.v20110808-1657.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.discovery.compatibility_1.0.101.v20120524-1717.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.discovery_1.0.200.v20120524-1717.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.engine_2.2.0.v20120501-1502.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.extensionlocation_1.2.100.v20110808-1657.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.garbagecollector_1.0.200.v20110808-1657.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.jarprocessor_1.0.200.v20110808-1657.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.metadata.repository_1.2.100.v20120524-1717.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.metadata_2.1.0.v20120430-2001.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.operations_2.2.0.v20120524-0542.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.publisher.eclipse_1.1.0.v20120511-1931.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.publisher_1.2.0.v20120428-0117.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.ql_2.0.100.v20110808-1657.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.reconciler.dropins_1.1.200.v20120301-2145.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.repository.tools_2.0.100.v20120501-1314.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.repository_2.2.0.v20120524-1945.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.touchpoint.eclipse_2.1.100.v20120428-0117.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.touchpoint.natives_1.1.0.v20120524-0542.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.transport.ecf_1.0.100.v20120305-0333.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.ui.discovery_1.0.0.v20110808-1657.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.ui.importexport_1.0.1.v20110818-1344.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.ui.sdk.scheduler_1.1.0.v20110815-1744.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.ui.sdk_1.0.200.v20120515-1650.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.ui_2.2.0.v20120524-0542.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.updatechecker_1.1.200.v20110808-1657.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.p2.updatesite_1.0.400.v20120412-1615.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.preferences_3.5.0.v20120522-1841.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.security.ui_1.1.100.v20120522-2049.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.security.win32.x86_1.0.300.v20120522-2049.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.security_1.1.100.v20120522-1841.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20110808-1657.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.simpleconfigurator_1.0.300.v20110815-1744.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.equinox.util_1.0.400.v20120522-2049.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.help_3.6.0.v20120521-2344.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.jface.databinding_1.6.0.v20120521-2332.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.jface.text_3.8.0.v20120531-0600.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.jface_3.8.0.v20120521-2332.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ltk.core.refactoring_3.6.0.v20120523-1543.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.osgi.services_3.3.100.v20120522-1822.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.osgi_3.8.0.v20120529-1548.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.swt.win32.win32.x86_3.8.0.v3833.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.swt_3.8.0.v3833.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.text_3.5.200.v20120523-1310.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ui.browser_3.4.0.v20120521-2332.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ui.console_3.5.100.v20120521-2012.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ui.forms_3.5.200.v20120521-2332.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ui.net_1.2.100.v20120522-1148.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ui.workbench_3.8.0.v20120521-2332.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.eclipse.ui_3.8.0.v20120523-1546.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.sat4j.core_2.3.0.v20110329.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\plugins\org.sat4j.pb_2.3.0.v20110329.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\scripts\uniflash.bat
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\uniflash.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\uniflash.ini
+Directory already exists: C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d
+Unpacking files
+Installing JRE ...
+Creating directory C:\ti\uniflash_3.4\eclipse\jre
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\bin
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\bin\plugin2
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\bin\dtplugin
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\bin\client
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\security
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\management
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\jfr
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\images
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\i386
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\fonts
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\ext
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\deploy
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\cmm
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\applet
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\jqs
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\images\cursors
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\North_Dakota
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Kentucky
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Indiana
+Creating directory C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\COPYRIGHT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\LICENSE
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\README.txt
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\THIRDPARTYLICENSEREADME-JAVAFX.txt
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\THIRDPARTYLICENSEREADME.txt
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\Welcome.html
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\JAWTAccessBridge-32.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\JavaAccessBridge-32.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\JdbcOdbc.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\WindowsAccessBridge-32.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\awt.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\axbridge.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\client\Xusage.txt
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\client\classes.jsa
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\client\jvm.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\dcpr.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\decora-sse.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\deploy.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\dt_shmem.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\dt_socket.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\dtplugin\deployJava1.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\dtplugin\npdeployJava1.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\eula.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\fontmanager.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\fxplugins.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\glass.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\glib-lite.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\gstreamer-lite.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\hprof.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\installer.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\instrument.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\j2pcsc.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\j2pkcs11.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jaas_nt.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jabswitch.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\java-rmi.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\java.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\java.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\java_crw_demo.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\javacpl.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\javafx-font.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\javafx-iio.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\javaw.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\javaws.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jawt.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jdwp.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jfr.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jfxmedia.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jfxwebkit.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jli.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jp2iexp.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jp2launcher.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jp2native.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jp2ssv.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jpeg.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jpicom.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jpiexp.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jpinscp.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jpioji.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jpishare.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jqs.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jsdt.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jsound.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\jsoundds.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\kcms.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\keytool.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\kinit.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\klist.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\ktab.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\libxml2.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\libxslt.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\management.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\mlib_image.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\msvcr100.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\net.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\nio.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\npjpi170_60.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\npoji610.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\npt.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\orbd.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\pack200.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\plugin2\msvcr100.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\plugin2\npjp2.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\policytool.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\prism-d3d.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\rmid.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\rmiregistry.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\servertool.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\splashscreen.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\ssv.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\ssvagent.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\sunec.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\sunmscapi.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\t2k.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\tnameserv.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\unpack.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\unpack200.exe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\verify.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\w2k_lsa_auth.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\wsdetect.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\bin\zip.dll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\accessibility.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\alt-rt.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\calendars.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\charsets.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\classlist
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\cmm\CIEXYZ.pf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\cmm\GRAY.pf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\cmm\LINEAR_RGB.pf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\cmm\PYCC.pf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\cmm\sRGB.pf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\content-types.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\currency.data
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\ffjcext.zip
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\jqs\jqs.conf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\jqs\jqsmessages.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_de.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_es.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_fr.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_it.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_ja.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_ko.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_pt_BR.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_sv.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_zh_CN.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_zh_HK.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\messages_zh_TW.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy\splash.gif
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\deploy.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\ext\access-bridge-32.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\ext\dnsns.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\ext\jaccess.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\ext\localedata.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\ext\meta-index
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\ext\sunec.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\ext\sunjce_provider.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\ext\sunmscapi.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\ext\sunpkcs11.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\ext\zipfs.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\flavormap.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\fontconfig.bfc
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\fontconfig.properties.src
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\fonts\LucidaBrightDemiBold.ttf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\fonts\LucidaBrightDemiItalic.ttf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\fonts\LucidaBrightItalic.ttf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\fonts\LucidaBrightRegular.ttf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\fonts\LucidaSansDemiBold.ttf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\fonts\LucidaSansRegular.ttf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\fonts\LucidaTypewriterBold.ttf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\fonts\LucidaTypewriterRegular.ttf
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\i386\jvm.cfg
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\images\cursors\cursors.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\images\cursors\invalid32x32.gif
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\images\cursors\win32_CopyDrop32x32.gif
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\images\cursors\win32_LinkDrop32x32.gif
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\images\cursors\win32_MoveDrop32x32.gif
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\javafx.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\javaws.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\jce.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\jfr\default.jfc
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\jfr\profile.jfc
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\jfr.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\jfxrt.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\jsse.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\jvm.hprof.txt
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\logging.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\management\jmxremote.access
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\management\jmxremote.password.template
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\management\management.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\management\snmp.acl.template
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\management-agent.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\meta-index
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\net.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\plugin.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\psfont.properties.ja
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\psfontj2d.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\resources.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\rt.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\security\US_export_policy.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\security\blacklist
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\security\cacerts
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\security\java.policy
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\security\java.security
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\security\javafx.policy
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\security\javaws.policy
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\security\local_policy.jar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\security\trusted.libraries
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\sound.properties
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\tzmappings
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Abidjan
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Accra
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Addis_Ababa
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Algiers
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Asmara
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Bamako
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Bangui
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Banjul
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Bissau
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Blantyre
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Brazzaville
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Bujumbura
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Cairo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Casablanca
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Ceuta
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Conakry
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Dakar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Dar_es_Salaam
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Djibouti
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Douala
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\El_Aaiun
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Freetown
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Gaborone
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Harare
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Johannesburg
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Kampala
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Khartoum
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Kigali
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Kinshasa
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Lagos
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Libreville
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Lome
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Luanda
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Lubumbashi
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Lusaka
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Malabo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Maputo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Maseru
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Mbabane
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Mogadishu
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Monrovia
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Nairobi
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Ndjamena
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Niamey
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Nouakchott
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Ouagadougou
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Porto-Novo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Sao_Tome
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Tripoli
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Tunis
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Africa\Windhoek
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Adak
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Anchorage
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Antigua
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Araguaina
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\Buenos_Aires
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\Catamarca
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\Cordoba
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\Jujuy
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\La_Rioja
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\Mendoza
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\Rio_Gallegos
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\Salta
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\San_Juan
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\San_Luis
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\Tucuman
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Argentina\Ushuaia
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Asuncion
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Atikokan
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Bahia
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Bahia_Banderas
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Barbados
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Belem
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Belize
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Blanc-Sablon
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Boa_Vista
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Bogota
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Boise
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Cambridge_Bay
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Campo_Grande
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Cancun
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Caracas
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Cayenne
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Cayman
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Chicago
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Chihuahua
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Costa_Rica
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Creston
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Cuiaba
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Curacao
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Danmarkshavn
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Dawson
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Dawson_Creek
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Denver
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Detroit
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Edmonton
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Eirunepe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\El_Salvador
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Fortaleza
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Glace_Bay
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Godthab
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Goose_Bay
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Grand_Turk
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Guatemala
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Guayaquil
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Guyana
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Halifax
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Havana
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Hermosillo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Indiana\Indianapolis
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Indiana\Knox
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Indiana\Marengo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Indiana\Petersburg
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Indiana\Tell_City
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Indiana\Vevay
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Indiana\Vincennes
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Indiana\Winamac
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Inuvik
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Iqaluit
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Jamaica
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Juneau
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Kentucky\Louisville
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Kentucky\Monticello
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\La_Paz
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Lima
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Los_Angeles
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Maceio
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Managua
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Manaus
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Martinique
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Matamoros
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Mazatlan
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Menominee
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Merida
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Metlakatla
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Mexico_City
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Miquelon
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Moncton
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Monterrey
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Montevideo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Montreal
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Nassau
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\New_York
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Nipigon
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Nome
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Noronha
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\North_Dakota\Beulah
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\North_Dakota\Center
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\North_Dakota\New_Salem
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Ojinaga
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Panama
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Pangnirtung
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Paramaribo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Phoenix
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Port-au-Prince
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Port_of_Spain
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Porto_Velho
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Puerto_Rico
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Rainy_River
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Rankin_Inlet
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Recife
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Regina
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Resolute
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Rio_Branco
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Santa_Isabel
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Santarem
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Santiago
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Santo_Domingo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Sao_Paulo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Scoresbysund
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Sitka
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\St_Johns
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Swift_Current
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Tegucigalpa
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Thule
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Thunder_Bay
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Tijuana
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Toronto
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Vancouver
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Whitehorse
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Winnipeg
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Yakutat
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\America\Yellowknife
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica\Casey
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica\Davis
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica\DumontDUrville
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica\Macquarie
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica\Mawson
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica\Palmer
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica\Rothera
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica\Syowa
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica\Troll
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Antarctica\Vostok
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Aden
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Almaty
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Amman
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Anadyr
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Aqtau
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Aqtobe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Ashgabat
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Baghdad
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Bahrain
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Baku
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Bangkok
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Beirut
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Bishkek
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Brunei
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Choibalsan
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Chongqing
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Colombo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Damascus
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Dhaka
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Dili
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Dubai
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Dushanbe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Gaza
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Harbin
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Hebron
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Ho_Chi_Minh
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Hong_Kong
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Hovd
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Irkutsk
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Jakarta
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Jayapura
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Jerusalem
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Kabul
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Kamchatka
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Karachi
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Kashgar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Kathmandu
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Khandyga
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Kolkata
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Krasnoyarsk
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Kuala_Lumpur
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Kuching
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Kuwait
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Macau
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Magadan
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Makassar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Manila
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Muscat
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Nicosia
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Novokuznetsk
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Novosibirsk
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Omsk
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Oral
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Phnom_Penh
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Pontianak
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Pyongyang
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Qatar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Qyzylorda
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Rangoon
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Riyadh
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Riyadh87
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Riyadh88
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Riyadh89
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Sakhalin
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Samarkand
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Seoul
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Shanghai
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Singapore
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Taipei
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Tashkent
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Tbilisi
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Tehran
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Thimphu
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Tokyo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Ulaanbaatar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Urumqi
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Ust-Nera
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Vientiane
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Vladivostok
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Yakutsk
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Yekaterinburg
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Asia\Yerevan
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic\Azores
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic\Bermuda
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic\Canary
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic\Cape_Verde
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic\Faroe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic\Madeira
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic\Reykjavik
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic\South_Georgia
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic\St_Helena
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Atlantic\Stanley
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Adelaide
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Brisbane
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Broken_Hill
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Currie
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Darwin
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Eucla
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Hobart
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Lindeman
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Lord_Howe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Melbourne
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Perth
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Australia\Sydney
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\CET
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\CST6CDT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\EET
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\EST
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\EST5EDT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+1
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+10
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+11
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+12
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+2
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+3
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+4
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+5
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+6
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+7
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+8
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT+9
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-1
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-10
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-11
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-12
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-13
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-14
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-2
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-3
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-4
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-5
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-6
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-7
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-8
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\GMT-9
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\UCT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Etc\UTC
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Amsterdam
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Andorra
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Athens
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Belgrade
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Berlin
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Brussels
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Bucharest
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Budapest
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Chisinau
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Copenhagen
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Dublin
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Gibraltar
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Helsinki
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Istanbul
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Kaliningrad
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Kiev
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Lisbon
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\London
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Luxembourg
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Madrid
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Malta
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Minsk
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Monaco
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Moscow
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Oslo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Paris
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Prague
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Riga
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Rome
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Samara
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Simferopol
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Sofia
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Stockholm
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Tallinn
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Tirane
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Uzhgorod
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Vienna
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Vilnius
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Volgograd
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Warsaw
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Zaporozhye
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Europe\Zurich
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\GMT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\HST
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Antananarivo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Chagos
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Christmas
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Cocos
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Comoro
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Kerguelen
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Mahe
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Maldives
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Mauritius
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Mayotte
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Indian\Reunion
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\MET
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\MST
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\MST7MDT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\PST8PDT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Apia
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Auckland
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Chatham
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Chuuk
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Easter
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Efate
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Enderbury
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Fakaofo
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Fiji
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Funafuti
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Galapagos
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Gambier
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Guadalcanal
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Guam
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Honolulu
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Kiritimati
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Kosrae
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Kwajalein
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Majuro
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Marquesas
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Midway
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Nauru
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Niue
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Norfolk
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Noumea
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Pago_Pago
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Palau
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Pitcairn
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Pohnpei
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Port_Moresby
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Rarotonga
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Saipan
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Tahiti
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Tarawa
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Tongatapu
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Wake
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\Pacific\Wallis
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\AST4
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\AST4ADT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\CST6
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\CST6CDT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\EST5
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\EST5EDT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\HST10
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\MST7
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\MST7MDT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\PST8
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\PST8PDT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\YST9
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\SystemV\YST9YDT
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\WET
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\lib\zi\ZoneInfoMappings
+Extracting compressed file C:\ti\uniflash_3.4\eclipse\jre\release
+Directory already exists: C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d
+Unpacking files
+Unpacking C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d\ds_jars.zip
+Creating directory C:\ti\uniflash_3.4\ccs_base
+Creating directory C:\ti\uniflash_3.4\ccs_base\DebugServer
+Creating directory C:\ti\uniflash_3.4\ccs_base\DebugServer\packages
+Creating directory C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti
+Creating directory C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss
+Creating directory C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package
+Creating directory C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\java
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\java\ccsLegacyScriptingJNI.dll
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\java\com.ti.ccstudio.debug.memoryserver_1.0.0.jar
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\java\com.ti.ccstudio.scripting.environment_3.1.0.jar
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\java\com.ti.debug.engine_1.0.0.jar
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\java\com.ti.uart.monitor_1.0.0.jar
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\java\dss.jar
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\java\js.jar
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\.vers_b100
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\.vers_g101
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\.vers_r100
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\package.bld.xml
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\package.defs.h
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\package.ext.xml
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\package.rel.dot
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\package.rel.xml
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\package.xdc.xml
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\package_ti.dss.c
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\ti.dss.ccs101
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package\ti.dss.sch
+Extracting compressed file C:\ti\uniflash_3.4\ccs_base\DebugServer\packages\ti\dss\package.xdc
+Directory already exists: C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d
+Unpacking files
+Unpacking C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d\vcredist_x86_2005_6.0.2900.2180.exe
+[17:15:39] [134278729]
+Directory already exists: C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d
+Unpacking files
+Unpacking C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d\vcredist_x86.exe
+[17:15:40] [151025673]
+Directory already exists: C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d
+Unpacking files
+Unpacking C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d\vcredist_x86_2012_11.0.61030.exe
+[17:15:40] [11.0.61030.0]
+Directory already exists: C:\ti\uniflash_3.4
+Directory already exists: C:\ti\uniflash_3.4\drivers
+Directory already exists: C:\ti\uniflash_3.4\drivers\cc3200
+Directory already exists: C:\ti\uniflash_3.4\drivers\cc3200\ftdi
+Directory already exists: C:\ti\uniflash_3.4\drivers\cc3200\ftdi\amd64
+Directory already exists: C:\ti\uniflash_3.4\drivers\cc3200\ftdi\i386
+Directory already exists: C:\ti\uniflash_3.4\drivers\certificates
+Directory already exists: C:\ti\uniflash_3.4\drivers\tools
+Unpacking files
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\ftdibus.cat
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\ftdibus.inf
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\ftdiport.cat
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\ftdiport.inf
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\amd64\ftbusui.dll
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\amd64\ftcserco.dll
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\amd64\ftd2xx.lib
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\amd64\ftd2xx64.dll
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\amd64\ftdibus.sys
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\amd64\ftlang.dll
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\amd64\ftser2k.sys
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\amd64\ftserui2.dll
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\i386\ftbusui.dll
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\i386\ftcserco.dll
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\i386\ftd2xx.dll
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\i386\ftd2xx.lib
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\i386\ftdibus.sys
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\i386\ftlang.dll
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\i386\ftser2k.sys
+Unpacking C:\ti\uniflash_3.4\drivers\cc3200\ftdi\i386\ftserui2.dll
+Unpacking C:\ti\uniflash_3.4\drivers\certificates\ewa1.p7b
+Unpacking C:\ti\uniflash_3.4\drivers\certificates\ewa2.p7b
+Unpacking C:\ti\uniflash_3.4\drivers\certificates\ewa3.p7b
+Unpacking C:\ti\uniflash_3.4\drivers\certificates\ewa4.p7b
+Unpacking C:\ti\uniflash_3.4\drivers\certificates\install-certs.bat
+Unpacking C:\ti\uniflash_3.4\drivers\certificates\sd1.p7b
+Unpacking C:\ti\uniflash_3.4\drivers\certificates\ti1.p7b
+Unpacking C:\ti\uniflash_3.4\drivers\certificates\ti2.p7b
+Unpacking C:\ti\uniflash_3.4\drivers\certificates\ti3.p7b
+Unpacking C:\ti\uniflash_3.4\drivers\certificates\ti4.p7b
+Unpacking C:\ti\uniflash_3.4\drivers\tools\DPInst32.exe
+Unpacking C:\ti\uniflash_3.4\drivers\tools\DPInst64.exe
+Executing C:\ti\uniflash_3.4\drivers\certificates\install-certs.bat 
+Script exit code: 0
+
+Script output:
+ 
+C:\ti\uniflash_3.4\drivers\certificates>certutil -addstore "TrustedPublisher" C:\ti\UNIFLA~1.4\drivers\CERTIF~1\\ewa1.p7b 
+TrustedPublisher
+相關的憑證:
+
+完全相符:
+元素 15:
+序號: 655226e1b22e18e1590f2985ac22e75c
+簽發者: OU=Class 3 Public Primary Certification Authority, O=VeriSign, Inc., C=US
+ NotBefore: 98/5/21 上午 08:00
+ NotAfter: 108/5/21 上午 07:59
+主體: CN=VeriSign Class 3 Code Signing 2009-2 CA, OU=Terms of use at https://www.verisign.com/rpa (c)09, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 12 d4 87 2b c3 ef 01 9e 7e 0b 6f 13 24 80 ae 29 db 5b 1c a3
+
+憑證 "CN=VeriSign Class 3 Code Signing 2009-2 CA, OU=Terms of use at https://www.verisign.com/rpa (c)09, OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+簽章符合公開金鑰
+相關的憑證:
+
+完全相符:
+元素 7:
+序號: 70bae41d10d92934b638ca7b03ccbabf
+簽發者: OU=Class 3 Public Primary Certification Authority, O=VeriSign, Inc., C=US
+ NotBefore: 85/1/29 上午 08:00
+ NotAfter: 117/8/2 上午 07:59
+主體: OU=Class 3 Public Primary Certification Authority, O=VeriSign, Inc., C=US
+簽章符合公開金鑰
+根憑證: 主體符合簽發者
+範本: 
+Cert 雜湊(sha1): 74 2c 31 92 e6 07 e4 24 eb 45 49 54 2b e1 bb c5 3e 61 74 e2
+
+憑證 "OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US" 已在存放區中。
+相關的憑證:
+
+完全相符:
+元素 13:
+序號: 5a27decb3e7f05e384eab0f1f0d11764
+簽發者: CN=VeriSign Class 3 Code Signing 2009-2 CA, OU=Terms of use at https://www.verisign.com/rpa (c)09, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 99/3/23 上午 08:00
+ NotAfter: 100/4/26 上午 07:59
+主體: CN=EWA Technologies, Inc., OU=Blackhawk, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=EWA Technologies, Inc., L=Mount Laurel, S=New Jersey, C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 1d 4a dc d4 4e cf 1b 18 2c 38 0f 9e 2a 39 e5 c6 1b ca 6d 83
+
+憑證 "CN="EWA Technologies, Inc.", OU=Blackhawk, OU=Digital ID Class 3 - Microsoft Software Validation v2, O="EWA Technologies, Inc.", L=Mount Laurel, S=New Jersey, C=US" 已在存放區中。
+CertUtil: -addstore 命令成功完成。
+
+C:\ti\uniflash_3.4\drivers\certificates>certutil -addstore "TrustedPublisher" C:\ti\UNIFLA~1.4\drivers\CERTIF~1\\ewa2.p7b 
+TrustedPublisher
+相關的憑證:
+
+完全相符:
+元素 11:
+序號: 5200e5aa2556fc1a86ed96c9d44b33c7
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 99/2/8 上午 08:00
+ NotAfter: 109/2/8 上午 07:59
+主體: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 49 58 47 a9 31 87 cf b8 c7 1f 84 0c b7 b4 14 97 ad 95 c6 4f
+
+憑證 "CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+簽章符合公開金鑰
+相關的憑證:
+
+完全相符:
+元素 10:
+序號: 18dad19e267de8bb4a2158cdcc6b3b4a
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 95/11/8 上午 08:00
+ NotAfter: 125/7/17 上午 07:59
+主體: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+簽章符合公開金鑰
+根憑證: 主體符合簽發者
+範本: 
+Cert 雜湊(sha1): 4e b6 d5 78 49 9b 1c cf 5f 58 1e ad 56 be 3d 9b 67 44 a5 e5
+
+憑證 "CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+相關的憑證:
+
+完全相符:
+元素 8:
+序號: 7db731a79cdcb7a070905db1d0b25663
+簽發者: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 100/3/27 上午 08:00
+ NotAfter: 101/4/25 上午 07:59
+主體: CN=EWA Technologies, Inc., OU=Blackhawk, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=EWA Technologies, Inc., L=Mount Laurel, S=New Jersey, C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 51 92 4a b0 17 5b fe ca 92 81 2b c4 75 b9 49 ab 0c 00 b2 7a
+
+憑證 "CN="EWA Technologies, Inc.", OU=Blackhawk, OU=Digital ID Class 3 - Microsoft Software Validation v2, O="EWA Technologies, Inc.", L=Mount Laurel, S=New Jersey, C=US" 已在存放區中。
+CertUtil: -addstore 命令成功完成。
+
+C:\ti\uniflash_3.4\drivers\certificates>certutil -addstore "TrustedPublisher" C:\ti\UNIFLA~1.4\drivers\CERTIF~1\\ewa3.p7b 
+TrustedPublisher
+相關的憑證:
+
+完全相符:
+元素 11:
+序號: 5200e5aa2556fc1a86ed96c9d44b33c7
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 99/2/8 上午 08:00
+ NotAfter: 109/2/8 上午 07:59
+主體: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 49 58 47 a9 31 87 cf b8 c7 1f 84 0c b7 b4 14 97 ad 95 c6 4f
+
+憑證 "CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+簽章符合公開金鑰
+相關的憑證:
+
+完全相符:
+元素 10:
+序號: 18dad19e267de8bb4a2158cdcc6b3b4a
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 95/11/8 上午 08:00
+ NotAfter: 125/7/17 上午 07:59
+主體: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+簽章符合公開金鑰
+根憑證: 主體符合簽發者
+範本: 
+Cert 雜湊(sha1): 4e b6 d5 78 49 9b 1c cf 5f 58 1e ad 56 be 3d 9b 67 44 a5 e5
+
+憑證 "CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+相關的憑證:
+
+完全相符:
+元素 16:
+序號: 60cedd5bcb8f3f2e8c7ae62ab9f6bcf3
+簽發者: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 101/3/27 上午 08:00
+ NotAfter: 102/4/25 上午 07:59
+主體: CN=EWA Technologies, Inc., OU=Blackhawk, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=EWA Technologies, Inc., L=Mount Laurel, S=New Jersey, C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 10 fc b6 f9 11 53 ef 02 cf e7 1a 0a d1 35 97 95 b5 7e 9b af
+
+憑證 "CN="EWA Technologies, Inc.", OU=Blackhawk, OU=Digital ID Class 3 - Microsoft Software Validation v2, O="EWA Technologies, Inc.", L=Mount Laurel, S=New Jersey, C=US" 已在存放區中。
+CertUtil: -addstore 命令成功完成。
+
+C:\ti\uniflash_3.4\drivers\certificates>certutil -addstore "TrustedPublisher" C:\ti\UNIFLA~1.4\drivers\CERTIF~1\\ewa4.p7b 
+TrustedPublisher
+相關的憑證:
+
+完全相符:
+元素 11:
+序號: 5200e5aa2556fc1a86ed96c9d44b33c7
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 99/2/8 上午 08:00
+ NotAfter: 109/2/8 上午 07:59
+主體: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 49 58 47 a9 31 87 cf b8 c7 1f 84 0c b7 b4 14 97 ad 95 c6 4f
+
+憑證 "CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+簽章符合公開金鑰
+相關的憑證:
+
+完全相符:
+元素 10:
+序號: 18dad19e267de8bb4a2158cdcc6b3b4a
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 95/11/8 上午 08:00
+ NotAfter: 125/7/17 上午 07:59
+主體: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+簽章符合公開金鑰
+根憑證: 主體符合簽發者
+範本: 
+Cert 雜湊(sha1): 4e b6 d5 78 49 9b 1c cf 5f 58 1e ad 56 be 3d 9b 67 44 a5 e5
+
+憑證 "CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+相關的憑證:
+
+完全相符:
+元素 3:
+序號: 2d895bb38dcba4e8df667fb7cebb29f7
+簽發者: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 102/4/4 上午 08:00
+ NotAfter: 103/7/5 上午 07:59
+主體: CN=EWA TECHNOLOGIES, INC., OU=Blackhawk, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=EWA TECHNOLOGIES, INC., L=Mount Laurel, S=New Jersey, C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): b8 2d be d8 03 d9 9e 9d 62 40 cd 23 18 28 6f d2 ce 9c 48 0c
+
+憑證 "CN="EWA TECHNOLOGIES, INC.", OU=Blackhawk, OU=Digital ID Class 3 - Microsoft Software Validation v2, O="EWA TECHNOLOGIES, INC.", L=Mount Laurel, S=New Jersey, C=US" 已在存放區中。
+CertUtil: -addstore 命令成功完成。
+
+C:\ti\uniflash_3.4\drivers\certificates>certutil -addstore "TrustedPublisher" C:\ti\UNIFLA~1.4\drivers\CERTIF~1\\sd1.p7b 
+TrustedPublisher
+相關的憑證:
+
+完全相符:
+元素 14:
+序號: 4191a15a3978dfcf496566381d4c75c2
+簽發者: OU=Class 3 Public Primary Certification Authority, O=VeriSign, Inc., C=US
+ NotBefore: 93/7/16 上午 08:00
+ NotAfter: 103/7/16 上午 07:59
+主體: CN=VeriSign Class 3 Code Signing 2004 CA, OU=Terms of use at https://www.verisign.com/rpa (c)04, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 19 7a 4a eb db 25 f0 17 00 79 bb 8c 73 cb 2d 65 5e 00 18 a4
+
+憑證 "CN=VeriSign Class 3 Code Signing 2004 CA, OU=Terms of use at https://www.verisign.com/rpa (c)04, OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+簽章符合公開金鑰
+相關的憑證:
+
+完全相符:
+元素 7:
+序號: 70bae41d10d92934b638ca7b03ccbabf
+簽發者: OU=Class 3 Public Primary Certification Authority, O=VeriSign, Inc., C=US
+ NotBefore: 85/1/29 上午 08:00
+ NotAfter: 117/8/2 上午 07:59
+主體: OU=Class 3 Public Primary Certification Authority, O=VeriSign, Inc., C=US
+簽章符合公開金鑰
+根憑證: 主體符合簽發者
+範本: 
+Cert 雜湊(sha1): 74 2c 31 92 e6 07 e4 24 eb 45 49 54 2b e1 bb c5 3e 61 74 e2
+
+憑證 "OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US" 已在存放區中。
+相關的憑證:
+
+完全相符:
+元素 4:
+序號: 72cdf288651fe82770ea2f9a5843c2b0
+簽發者: CN=VeriSign Class 3 Code Signing 2004 CA, OU=Terms of use at https://www.verisign.com/rpa (c)04, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 98/5/8 上午 08:00
+ NotAfter: 101/6/9 上午 07:59
+主體: CN=Spectrum Digital, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Spectrum Digital, L=Stafford, S=Texas, C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): b3 55 f5 8c 21 79 95 3d a4 62 f7 a6 2c 4c c9 40 8c ea 7a 65
+
+憑證 "CN=Spectrum Digital, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Spectrum Digital, L=Stafford, S=Texas, C=US" 已在存放區中。
+CertUtil: -addstore 命令成功完成。
+
+C:\ti\uniflash_3.4\drivers\certificates>certutil -addstore "TrustedPublisher" C:\ti\UNIFLA~1.4\drivers\CERTIF~1\\ti1.p7b 
+TrustedPublisher
+相關的憑證:
+
+完全相符:
+元素 11:
+序號: 5200e5aa2556fc1a86ed96c9d44b33c7
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 99/2/8 上午 08:00
+ NotAfter: 109/2/8 上午 07:59
+主體: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 49 58 47 a9 31 87 cf b8 c7 1f 84 0c b7 b4 14 97 ad 95 c6 4f
+
+憑證 "CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+簽章符合公開金鑰
+相關的憑證:
+
+完全相符:
+元素 10:
+序號: 18dad19e267de8bb4a2158cdcc6b3b4a
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 95/11/8 上午 08:00
+ NotAfter: 125/7/17 上午 07:59
+主體: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+簽章符合公開金鑰
+根憑證: 主體符合簽發者
+範本: 
+Cert 雜湊(sha1): 4e b6 d5 78 49 9b 1c cf 5f 58 1e ad 56 be 3d 9b 67 44 a5 e5
+
+憑證 "CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+相關的憑證:
+
+完全相符:
+元素 9:
+序號: 7ba5aab20f054f4560dedc8991e62a27
+簽發者: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 101/7/25 上午 08:00
+ NotAfter: 102/7/26 上午 07:59
+主體: CN=Texas Instruments Incorporated, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Texas Instruments Incorporated, L=Dallas, S=Texas, C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 50 fc db ea 59 30 e0 4e 0c ed 67 46 71 5f 23 80 ec 6d 03 a9
+
+憑證 "CN=Texas Instruments Incorporated, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Texas Instruments Incorporated, L=Dallas, S=Texas, C=US" 已在存放區中。
+CertUtil: -addstore 命令成功完成。
+
+C:\ti\uniflash_3.4\drivers\certificates>certutil -addstore "TrustedPublisher" C:\ti\UNIFLA~1.4\drivers\CERTIF~1\\ti2.p7b 
+TrustedPublisher
+相關的憑證:
+
+完全相符:
+元素 11:
+序號: 5200e5aa2556fc1a86ed96c9d44b33c7
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 99/2/8 上午 08:00
+ NotAfter: 109/2/8 上午 07:59
+主體: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 49 58 47 a9 31 87 cf b8 c7 1f 84 0c b7 b4 14 97 ad 95 c6 4f
+
+憑證 "CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+簽章符合公開金鑰
+相關的憑證:
+
+完全相符:
+元素 10:
+序號: 18dad19e267de8bb4a2158cdcc6b3b4a
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 95/11/8 上午 08:00
+ NotAfter: 125/7/17 上午 07:59
+主體: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+簽章符合公開金鑰
+根憑證: 主體符合簽發者
+範本: 
+Cert 雜湊(sha1): 4e b6 d5 78 49 9b 1c cf 5f 58 1e ad 56 be 3d 9b 67 44 a5 e5
+
+憑證 "CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+相關的憑證:
+
+完全相符:
+元素 2:
+序號: 1124ac88d0430481e0eaa40ef04118a9
+簽發者: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 100/10/4 上午 08:00
+ NotAfter: 101/10/4 上午 07:59
+主體: CN=Texas Instruments Inc, OU=Stellaris MCU, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Texas Instruments Inc, L=Austin, S=Texas, C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): bc cc f2 62 67 ce e6 b5 8b 38 18 78 2d 26 f4 30 7b cb 6a 4f
+
+憑證 "CN=Texas Instruments Inc, OU=Stellaris MCU, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Texas Instruments Inc, L=Austin, S=Texas, C=US" 已在存放區中。
+CertUtil: -addstore 命令成功完成。
+
+C:\ti\uniflash_3.4\drivers\certificates>certutil -addstore "TrustedPublisher" C:\ti\UNIFLA~1.4\drivers\CERTIF~1\\ti3.p7b 
+TrustedPublisher
+相關的憑證:
+
+完全相符:
+元素 11:
+序號: 5200e5aa2556fc1a86ed96c9d44b33c7
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 99/2/8 上午 08:00
+ NotAfter: 109/2/8 上午 07:59
+主體: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 49 58 47 a9 31 87 cf b8 c7 1f 84 0c b7 b4 14 97 ad 95 c6 4f
+
+憑證 "CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+簽章符合公開金鑰
+相關的憑證:
+
+完全相符:
+元素 10:
+序號: 18dad19e267de8bb4a2158cdcc6b3b4a
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 95/11/8 上午 08:00
+ NotAfter: 125/7/17 上午 07:59
+主體: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+簽章符合公開金鑰
+根憑證: 主體符合簽發者
+範本: 
+Cert 雜湊(sha1): 4e b6 d5 78 49 9b 1c cf 5f 58 1e ad 56 be 3d 9b 67 44 a5 e5
+
+憑證 "CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+相關的憑證:
+
+完全相符:
+元素 1:
+序號: 558c8cedb57ce54fa6fb351fb84b222f
+簽發者: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 103/4/15 上午 08:00
+ NotAfter: 104/4/17 上午 07:59
+主體: CN=Texas Instruments, OU=WCS, O=Texas Instruments, L=Dallas, S=Texas, C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): c7 6e 48 8a fc 11 5a d0 9d a6 69 cb e4 13 31 6f e5 6e 94 38
+
+憑證 "CN=Texas Instruments, OU=WCS, O=Texas Instruments, L=Dallas, S=Texas, C=US" 已在存放區中。
+CertUtil: -addstore 命令成功完成。
+
+C:\ti\uniflash_3.4\drivers\certificates>certutil -addstore "TrustedPublisher" C:\ti\UNIFLA~1.4\drivers\CERTIF~1\\ti4.p7b 
+TrustedPublisher
+相關的憑證:
+
+完全相符:
+元素 11:
+序號: 5200e5aa2556fc1a86ed96c9d44b33c7
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 99/2/8 上午 08:00
+ NotAfter: 109/2/8 上午 07:59
+主體: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): 49 58 47 a9 31 87 cf b8 c7 1f 84 0c b7 b4 14 97 ad 95 c6 4f
+
+憑證 "CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+簽章符合公開金鑰
+相關的憑證:
+
+完全相符:
+元素 10:
+序號: 18dad19e267de8bb4a2158cdcc6b3b4a
+簽發者: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 95/11/8 上午 08:00
+ NotAfter: 125/7/17 上午 07:59
+主體: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+簽章符合公開金鑰
+根憑證: 主體符合簽發者
+範本: 
+Cert 雜湊(sha1): 4e b6 d5 78 49 9b 1c cf 5f 58 1e ad 56 be 3d 9b 67 44 a5 e5
+
+憑證 "CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US" 已在存放區中。
+相關的憑證:
+
+完全相符:
+元素 0:
+序號: 39ad63d2f5c9efdc46d734ae5e381b8f
+簽發者: CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, OU=VeriSign Trust Network, O=VeriSign, Inc., C=US
+ NotBefore: 103/2/26 上午 08:00
+ NotAfter: 106/2/26 上午 07:59
+主體: CN=Texas Instruments Incorporated, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Texas Instruments Incorporated, L=Dallas, S=Texas, C=US
+不是根憑證
+範本: 
+Cert 雜湊(sha1): ee 0c 8b a0 18 ce 92 64 32 c3 cc 23 52 3a 34 07 3d 01 95 4a
+
+憑證 "CN=Texas Instruments Incorporated, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Texas Instruments Incorporated, L=Dallas, S=Texas, C=US" 已在存放區中。
+CertUtil: -addstore 命令成功完成。
+
+Script stderr:
+ 
+
+Directory already exists: C:\Users\chialien.hsu\AppData\Local\Temp\uniflash_267258ce-4fb3-4023-406a-f6e43b012d8d
+Unpacking files
+Executing C:\ti\uniflash_3.4/eclipse/uniflash.exe -application org.eclipse.equinox.p2.director -repository "http://software-dl.ti.com/ccs/esd/uniflash/Uniflash_3.4.1.00012_win32/repo" -installiu com.ti.ccstudio.p2tool.install.feature.group -destination "C:\ti\uniflash_3.4/eclipse" -nosplash
+Script exit code: 0
+
+Script output:
+ Installing com.ti.ccstudio.p2tool.install.feature.group 6.0.0.201503091537.
+Operation completed in 10825 ms.
+
+Script stderr:
+ 
+
